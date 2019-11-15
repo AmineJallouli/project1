@@ -1,0 +1,699 @@
+html {
+    display: block;
+    color: -internal-root-color;
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+
+header, main .brand {
+    background-image: url(https://wistia.com/static/images/homepage/wistia-home-pattern_footer@2x.webp);
+    height:500px
+}
+
+header {
+    display:flex;
+    justify-content: space-around;
+    height: 60px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header:hover {
+    background: white;
+    width: 100%;
+    color: black;
+    border-bottom:1px solid grey;
+}
+
+header img {
+    position: relative;
+    width:30px;
+    height: 30px;
+    top:24%;
+}
+
+header ul {
+    display:flex;
+    list-style-type: none;
+   
+}
+
+header .header-btn {
+    justify-content: flex-end;
+}
+
+
+header ul li {
+    width: 130px;
+    position: relative;
+    left:-170px;
+}
+
+header .header-list .header-product .product .features {
+    display: flex;
+    flex-direction: column;
+    width:50px;
+    font-size: 10px;
+}
+
+header .header-list .header-product .product .create {
+    display: flex;
+    flex-direction: column;
+    width:50px;
+    padding-left:50px;
+    font-size:10px;
+}
+
+header .header-list .header-product .product .present {
+    display: flex;
+    flex-direction: column;
+    width:50px;
+    padding-left:50px;
+    font-size: 10px;
+}
+
+header .header-list .header-product .product .grow {
+    display: flex;
+    flex-direction: column;
+    width:50px;
+    padding-left:50px;
+    font-size:10px;
+}
+
+header .header-list .header-product .product .software {
+    width:150px;
+}
+
+header .header-list .header-product .product .dropdown-product .software p {
+    margin-bottom: 50px;
+    width:120px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .header-list .header-product .product .dropdown-product .software span {
+    border: 1px solid #0A91EC;
+    background-color: #0A91EC;
+    margin-top: 10px;
+    padding-top:10px;
+    padding-right:8px;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+header .header-list .header-product .product .dropdown-product .software span:hover{
+    border-bottom:3px solid rgb(7, 116, 189);
+    cursor: pointer;
+    position: relative;
+    bottom:5px;
+
+}
+
+header ul .learning-center {
+    position: relative;
+    left:-195px;
+}
+
+.dropdown-product {
+    display: none;
+    position: absolute;
+    justify-content: space-around;
+    z-index: 1;
+    color: black;
+    background-color: white;
+    /* margin-top: 26px; */
+    padding-left: 155px;
+    width: 1071px;
+    padding-top: 50px;
+    margin-left: -156px;
+}
+
+
+header ul .product:hover {
+    cursor: pointer;
+    color:#0A91EC;
+}
+
+header ul .product:hover .dropdown-product{
+    display: flex;
+    position: absolute;
+    justify-content:center;
+    z-index: 1;
+    color: black;
+    background-color: white;
+    /* margin-top: 26px; */
+    padding-left: 109px;
+    width: 1117px;
+    padding-top: 50px;
+    margin-left: -156px;
+    height: 200px ;
+}
+
+.dropdown-center {
+    display: none;
+    position: absolute;
+    justify-content: space-around;
+    z-index: 1;
+    color: black;
+    background-color: white;
+    /* margin-top: 26px; */
+    padding-left: 155px;
+    width: 1071px;
+    padding-top: 50px;
+    margin-left: -156px;
+}
+
+header ul .learning-center:hover .dropdown-center{
+    display: block;
+    position: absolute;
+    justify-content: space-around;
+    z-index: 1;
+    color: black;
+    background-color: white;
+    /* margin-top: 26px; */
+    padding-left: 91px;
+    width: 1192px;
+    padding-top: 50px;
+    margin-left: -261px;
+}
+
+
+
+.brand {
+    display:flex;
+    justify-content: space-around;
+    padding-top:100px
+}
+
+.btn-watch {
+    border: 1px solid rgb(243, 73, 101);
+    background-color: rgb(243, 73, 101);
+    color:white;
+    padding:15px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-watch:hover{
+    border-bottom: 3px solid rgb(240, 36, 70) ;
+    cursor: pointer;
+    position: relative;
+    bottom:5px;
+}
+
+.brand .parag {
+    width:400px;
+    flex-wrap: wrap;
+
+}
+.brand .parag p{
+    padding-bottom:25px;
+    font-family:cursive ;
+    font-size: 21px;
+    font-weight: 400;
+  
+}
+.brand .parag h3{
+    padding-bottom:25px;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
+video {
+    width: 600px;
+    height:400px;
+
+}
+.learn-more {
+    display:flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.learn-more .title>h2 {
+    font-family: GT walsheim regular;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom:30px ;
+
+}
+.learn-more .title .btn-learn-more {
+    text-align: center;
+    font-style: none;
+    font-family: cursive;
+    border: 3px solid #63AEF5;
+    background-color: #ffffff;
+    color:#63AEF5;
+    padding:15px;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-decoration: none;
+} 
+
+
+
+.learn-more .title .btn-learn-more:hover{
+    border-bottom:5px solid #63AEF5;
+    cursor: pointer;
+    position: relative;
+    bottom:5px;
+}
+
+
+.icons {
+    display:flex;
+    justify-content: center;
+    padding-top: 150px;
+    
+    
+}
+
+.icons .icon1 i {
+    font-size:40px;
+    color: #1C55C5;
+}
+
+.icons .icon2 i {
+    font-size:40px;
+    color: #EE5178;
+}
+
+.icons .icon3 i {
+    font-size:40px;
+    color: #3AB16A;
+}
+
+.icons .icon4 i {
+    font-size:40px;
+    color: #F98700;
+}
+
+.icons .icon1 {
+    flex-wrap: wrap;
+    width:250px;
+    margin-right:50px;
+}
+
+.icons .icon2 {
+    flex-wrap: wrap;
+    width:250px;
+    margin-right:50px;
+}
+
+.icons .icon3 {
+    flex-wrap: wrap;
+    width:250px;
+    margin-right:50px;
+
+}
+
+.icons .icon4 {
+    flex-wrap: wrap;
+    width:250px;
+}
+
+.wistia-std {
+    display:flex;
+    background-color: #363945;
+    height: 900px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.wistia-std .screen {
+    width: 300px;
+    padding-top:20%;
+    padding-right:50px;
+}
+.wistia-std h2 {
+    color:white;
+}
+.wistia-std p {
+    color: white;
+}
+
+.wistia-std .pic1 {
+    width: 400px;
+    height: 765px;
+
+}
+   
+
+.wistia-std .pic1 .img1 {
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right:-95px;
+    margin-top: 40%;
+    width: 400px;
+    height: 437px;
+    box-shadow: 0px 0px 5px 5px rgb(53, 52, 52);
+}
+
+.wistia-std .pic1 .bg1{
+    z-index: 1;
+    position: relative;
+    width: 380px;
+    left: 10px;
+    top: -213px;
+}
+
+.wistia-std .pic1 .btn1{
+    border:1px solid grey;
+    padding:17px 62px;
+    border-left:none;
+    border-bottom:none;
+    color: white;
+}
+
+.wistia-std .pic1 .btn1:hover{
+    background-color: #363945;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 5px;
+}
+
+
+
+.wistia-std .pic1 .btn2{
+    border:1px solid grey;
+    margin-left:-4px;
+    padding: 17px 61.1px;
+    border-bottom:none;
+    border-right:none;
+    border-left:none;
+    color:white;
+}
+
+.wistia-std .pic1 .btn2:hover{
+    background-color: #c54a6c;
+    cursor: pointer;
+    border-radius:0px 0px 5px 0px;
+}
+
+.wistia-std .pic2{
+    width: 400px;
+    height: 800px;
+    overflow: hidden;
+}
+
+
+.wistia-std .pic2 .img2{
+    object-fit: cover;
+    width: 400px;
+    height: 437px;
+    box-shadow: 0px 0px 5px 5px rgb(53, 52, 52);
+}
+
+.wistia-std .pic2 .bg2{
+    position: relative;
+    width: 380px;
+    left: 10px;
+    top: -220px;
+    object-fit:contain ;
+}
+
+.wistia-std .pic2 .btn-std1{
+    border:1px solid grey;
+    padding:17px 62px;
+    border-left:none;
+    border-bottom:none;
+    color:white;
+}
+.wistia-std .pic2 .btn-std2{
+border:1px solid grey;
+margin-left:-4px;
+padding: 17px 61px;
+border-bottom:none;
+border-right:none;
+border-left:none;
+color:white;
+}
+
+.wistia-std .pic2 .btn-std1:hover{
+    background-color: #363945;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 5px;
+}
+
+.wistia-std .pic2 .btn-std2:hover{
+    background-color: #34c453;
+    cursor: pointer;
+    border-radius:0px 0px 5px 0px;
+}
+
+.wistia-std .pic2 .img2 {
+    margin-top:160px;
+
+}
+
+.wistia-std .pic2 .grp-btn {
+    margin-top: -157.5px;
+
+
+}
+
+.wistia-std .pic1 .grp-btn {
+    margin-top: -157.5px;
+
+}
+
+
+.proud {
+    display: flex;
+    justify-content: center;
+    padding-top:200px;
+}
+
+.proud figcaption {
+    text-align: center;
+    font-family: cursive;
+    font-size: 24px;
+    Font-weight: 700;
+    color:rgb(42, 45, 53);
+}
+
+.proud img {
+    padding-top: 20px;
+    width:180px;
+    justify-content: space-around;
+}
+
+.See-more {
+    display:flex;   
+    justify-content: center;
+    padding-top:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:24px;
+    font-weight: 700;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+.images img {
+    width: 340px;
+    height: 245px;
+    padding-top: 20px;
+}
+
+.images h3 {
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2A2D35;
+}
+
+.images p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    color: #2A2D35;
+    flex-wrap: wrap;
+    width: 340px;    
+}
+.images a {
+    color:#3769CC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.business {
+    
+    background-image: url(https://wistia.com/static/images/homepage/wistia-home-pattern_footer@2x.webp);
+    background-size:150px 130px;
+    text-align: center;
+    height: 690px;
+    margin-top:100px;
+}
+
+.business h2 {
+    text-align: center;
+    color: white; 
+    font-family: cursive;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52.2px;
+    padding-top: 200px;
+}
+
+.business .btn {
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+
+
+.business .btn1 {
+    
+    color: white;
+    border:0px solid #EE5178 ;
+    padding:15px 15px;
+    border-radius: 5px;
+    background-color: #EE5178;
+}
+
+.business .btn1:hover {
+    border-bottom: 3px solid rgb(238, 30, 82) ;
+    cursor: pointer;
+    position: relative;
+    bottom:5px;
+}
+
+.business .btn2 {
+    color: black;
+    padding:15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.business .btn2:hover {
+    border-bottom:3px solid grey;
+    cursor: pointer;
+    position: relative;
+    bottom:5px;
+}
+
+footer {
+    background-color: #363945;
+    justify-content: space-around;
+}
+
+.wistia-footer {
+    display: flex;
+    height: 300px;
+}
+
+footer .wistia-footer .about-wistia p {
+    font-size:20px;
+    font-family: cursive;
+    font-weight: 400;
+    line-height: 39px;
+    color: white;
+    width:300px;
+    padding-left:20px;
+}
+
+footer .wistia-footer .about-wistia {
+    padding-left:50px;
+    border-right:1px solid grey;
+    height:300px;
+    padding-top:50px;
+}
+
+footer .wistia-footer h1 {
+    display: flex;
+    color: white;
+    padding-left:20px;
+    flex-direction: row;
+}
+
+footer .wistia-footer .about-wistia .follow-us a {
+    color: white;
+}
+
+footer .wistia-footer .about-wistia .follow-us a:hover{
+    text-decoration: underline;
+}
+
+
+.wistia-footer .follow-us li {
+    display: inline-block;
+}
+
+
+
+.wistia-footer ul {
+    list-style: none;
+}
+
+.wistia-footer ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.wistia-footer ul li:first-child {
+    color: rgb(156, 168, 183);
+    font-family: cursive;
+}
+
+
+.wistia-footer .about-wistia .follow-us li a {
+    color:rgb(6, 56, 26);
+} 
+
+
+
+
+.wistia-footer  ul li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: center;
+}
+
+footer .wistia-footer .product {
+    line-height: 30px;
+    padding-right:50px;
+}
+
+footer .wistia-footer .series {
+    line-height: 30px;
+    padding-right:50px;
+
+}
+
+footer .wistia-footer .about {
+    line-height: 30px;
+    padding-right:50px;
+}
+
+footer .wistia-footer .support {
+    line-height: 30px;
+    padding-right:50px;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: center;
+    color: rgb(178, 185, 193);
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 400;
+    line-height:19.2px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
